@@ -49,28 +49,42 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/styles.css">
 
-
-    <script type="application/ld+json">
+<!-- RUPAKARA Website and Business Structured Data -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "RUPAKARA",
-  "url": "https://rupakara.com/",
-  "description": "Bespoke bridal couture, traditional wear and custom fashion design.",
-  "image": "https://rupakara.com/images/hero.png",
-  "email": "hello@rupakara.com",
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  },
-  "serviceType": [
-    "Bespoke Bridal Couture",
-    "Custom Fashion Design",
-    "Traditional Wear",
-    "Contemporary Fashion"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://rupakara.com/#website",
+      "name": "RUPAKARA",
+      "url": "https://rupakara.com/",
+      "alternateName": "rupakara.com"
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://rupakara.com/#business",
+      "name": "RUPAKARA",
+      "url": "https://rupakara.com/",
+      "description": "RUPAKARA creates bespoke bridal couture, traditional wear, and contemporary custom fashion.",
+      "image": "https://rupakara.com/images/hero.png",
+      "email": "hello@rupakara.com",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "serviceType": [
+        "Bespoke Bridal Couture",
+        "Custom Fashion Design",
+        "Traditional Wear",
+        "Contemporary Fashion"
+      ]
+    }
   ]
 }
 </script>
+</head>
+
 
 </head>
 
